@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form_register</title>
+ 
+</head>
+<body>
+
+    <!--main heading-->
+    <h1><b>MATH-O-LOGY</b></h1>
+    <h2><small>THE TECH HUB</small></h2><hr>
+
+    <!--sub heading-->
+    <h3><u>REGISTRATION FOR THE UPCOMING BATCH</u></h3><br><br><br><br><br>
+
+    <!--form-->
+    <form  method="post" action="form_1.0.html" >
+        <label>NAME : </label>
+        <input type="text"  placeholder="FIRST NAME" name="fname">
+        <input type="text" placeholder="SECOND NAME" name="sname"><br><br>
+        <label>EMAIL :</label>
+        <input type="email" placeholder="MAIL ID" size="30" name="mail_id" required><br><br>
+        <label>USER NAME :</label>
+        <input type="text" placeholder="CREATE A USER NAME" name="username" required><br><br>
+        <label>PASSWORD :</label>
+        
+        
+        <input type="password" placeholder="AT LEAST 8 CHAR" required><br><br>
+        <label>CONTACT NUM :</label>
+        <input type="text" placeholder="CONTACT NUMBER" name="contact number" maxlength="10"><br><br>
+        <label>D:O:B :</label>
+        <input type="date" name="dob"><br><br>
+    
+        <label>GENDER :</label>
+        <input type="radio"><label><small>MALE</small></label>
+        <input type="radio"><label><small>FEMALE</small></label>
+        <input type="radio"><label><small>OTHER</small></label><br><br>
+        <label>EDUCATIONAL QUALIFIACATION :</label>
+        <select size="1" >
+            <option>Select</option>
+            <option>10</option>
+            <option>+2</option>
+            <option>graduated</option>
+        </select><br><br>
+        <label>SKILLS :</label>
+        <input type="checkbox" ><label><small>HTML</small></label>
+        <input type="checkbox" ><label><small>C++</small></label>
+        <input type="checkbox" ><label><smal>J.S</smal></label>
+        <input type="checkbox" ><label><small>PYTHON</small></label>
+        <input type="checkbox" ><label><small>PHP</small></label><br><br>
+        <input type="submit" value="S U B M I T" style="background-color: rgb(243, 235, 225) ;color:deeppink">
+
+    </form>
+</body>
+</html>
